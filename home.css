@@ -186,8 +186,8 @@
   height: auto;
   display: flex;
   align-items: flex-start;
-  padding-left: var(--dl-space-space-fiveunits);
-  padding-right: var(--dl-space-space-unit);
+  padding-left: 0px;
+  padding-right: 0px;
   flex-direction: column;
   padding-bottom: 0px;
   justify-content: center;
@@ -242,9 +242,11 @@
 .home-features-card1 {
   width: auto;
   display: flex;
+  margin-top: var(--dl-space-space-doubleunit);
   align-items: flex-start;
   padding-top: var(--dl-space-space-doubleunit);
   padding-left: var(--dl-space-space-doubleunit);
+  margin-bottom: var(--dl-space-space-doubleunit);
   padding-right: var(--dl-space-space-doubleunit);
   flex-direction: row;
   padding-bottom: var(--dl-space-space-doubleunit);
@@ -363,8 +365,8 @@
   align-self: center;
   align-items: center;
   padding-top: var(--dl-space-space-tenunits);
-  padding-left: var(--dl-space-space-tenunits);
-  padding-right: var(--dl-space-space-tenunits);
+  padding-left: var(--dl-space-space-doubleunit);
+  padding-right: var(--dl-space-space-doubleunit);
   flex-direction: column;
 }
 .home-text09 {
@@ -539,7 +541,7 @@
   background-color: #a9bee6 ;
 }
 .home-form-container {
-  width: 703px;
+  width: auto;
   display: flex;
   align-self: stretch;
   align-items: center;
@@ -656,6 +658,8 @@
   .home-text {
     text-align: center;
     padding-top: var(--dl-space-space-fiveunits);
+    padding-left: var(--dl-space-space-doubleunit);
+    padding-right: var(--dl-space-space-doubleunit);
   }
   .home-features04 {
     padding-left: var(--dl-space-space-fourunits);
